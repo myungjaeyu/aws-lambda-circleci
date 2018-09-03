@@ -24,3 +24,5 @@ jobs:
       - run: |
             sls -v
             echo Deploy
+
+      - run: sls deploy
